@@ -21,7 +21,11 @@ exports.handler = function (event, context, callback) {
         MessageAttributes: {
             "name": {
                 "DataType": "String",
-                "StringValue": "nu"
+                "StringValue": "hiru"
+            },
+            "name": {
+                "DataType": "String",
+                "StringValue": "thuva"
             }
         }
     }, function (err, data) {
